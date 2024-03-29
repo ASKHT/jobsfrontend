@@ -1,0 +1,68 @@
+.main{
+  background-color:#FFEEEE ;
+  height: 100vh;
+  overflow-y: scroll;
+  padding-bottom: 1rem;
+  
+}
+.main::-webkit-scrollbar {
+  width: 0; /* For Chrome, Safari, and Opera */
+}
+.container{
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
+}
+
+.searchcard{
+    display: flex;
+    flex-direction: column;
+    gap:29px;
+    width:70rem;
+    height:12rem;
+    border:1px solid white;
+     background-color: #ffffff;
+     box-shadow:  0px 5px 15px rgba(237, 83, 83, 0.5);
+     position: relative;
+     padding-left:8rem;
+}
+.input{
+    width:50rem;
+    height:3rem;
+    border:2px solid #E3E3E3;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding-left: 4rem;
+}
+.searchicon{
+    position:absolute;
+    margin-top: 1.5rem;
+    margin-left:1rem;
+    color:grey;
+}
+.options{
+   align-items: center;
+    width:8rem;
+    height:2.5rem;
+    border:2px solid #E3E3E3;
+    border-radius: 8px;
+    color:grey;
+}
+.mid{
+    display: flex;
+    width:100%;
+    justify-content:space-between;
+}
+.button{
+     text-align: center;
+    padding:10px 30px;
+    background-color: #ED5353;
+    color:white;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size:15px;
+    font-weight: 500;
+    cursor:pointer;
+}
